@@ -5,4 +5,4 @@ app.get("/", (req, res) => {
   res.json({ isWorking: true });
 });
 
-app.listen(9001, () => console.log("app working!"));
+app.listen(3000, () => console.log("app working!"));
